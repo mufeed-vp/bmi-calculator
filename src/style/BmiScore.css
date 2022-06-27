@@ -1,0 +1,53 @@
+.card-2 {
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 30px;
+  max-width: 300px;
+  max-height: 240px;
+  padding: 30px 90px 90px 90px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 6px 0 rgb(0 0 0 / 7%);
+  border-radius: 50px;
+  position: relative;
+  padding-left: 55px;
+}
+.card-2 .title {
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-2 .score {
+  margin: auto;
+  /* background-color: green; */
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card-2 .bmi-name,
+.card-2 .instrection {
+margin: auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.card-2 .instrection .instrection-bold{
+    margin: auto;
+      text-align: center;
+      line-height: 40px;
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 400px) {
+        .card-2 {
+          max-width: 100%;
+          max-height: 268px;
+          margin: auto;
+          margin-top: 10px;
+          padding-top: 13%;
+          border: 3px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 0 rgb(0 0 0 / 0);
+        }    
+    }

@@ -1,0 +1,33 @@
+.card-3 {
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 30px;
+  max-width: 300px;
+  max-height: 240px;
+  padding: 30px 90px 90px 90px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 6px 0 rgb(0 0 0 / 7%);
+  border-radius: 50px;
+  position: relative;
+  padding-left: 55px;
+}
+
+.card-3 .table-row {
+  text-align: center;
+  line-height: 40px;
+  /* font-size: 24px; */
+  /* font-weight: 700; */
+}
+
+.card-3 .table-row .table-field {
+  font-size: 9px;
+  width: 25%;
+}
+
+@media screen and (max-width: 400px) {
+  .card-3 .table-row .table-field {
+    font-size: 9px;
+    width: 18%;
+  
+  }
+}

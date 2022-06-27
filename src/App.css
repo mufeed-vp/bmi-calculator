@@ -1,0 +1,22 @@
+/* App {
+    height: 100vh;
+    background: #666666;
+    font-family: 'Balsamiq Sans', sans-serif;
+  }
+  
+App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .main-score-list {
+    width: 100%;
+    ;
+  }
+
+  @media screen and (max-width: 900px){
+    .main-score-list{
+        /* display: block; */
+        width: 100%;
+    }
+  }
